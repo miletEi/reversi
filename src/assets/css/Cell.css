@@ -1,0 +1,13 @@
+@import-normalize;
+
+.cell {
+  background: #b0d9b1;
+  border: solid #79ac78;
+  height: 60px;
+  width: 60px;
+}
+
+.cell:hover,
+.cell:focus {
+  background-color: #d0e7d2;
+}

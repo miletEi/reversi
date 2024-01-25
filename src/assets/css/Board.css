@@ -1,0 +1,6 @@
+@import-normalize;
+
+.board {
+  border: 10px solid #618264;
+  border-radius: 10px;
+}
