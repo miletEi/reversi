@@ -3,3 +3,13 @@
 :root {
   background-color: #fdcedf;
 }
+
+body {
+  background-color: #ffcacc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  min-height: 100vh;
+  overflow: hidden;
+}
