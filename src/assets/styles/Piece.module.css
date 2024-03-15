@@ -16,3 +16,10 @@
   background-color: #56bbf1;
   border: 2px solid #4d77ff;
 }
+
+@media (max-width: 768px) {
+  .piece {
+    height: 25px;
+    width: 25px;
+  }
+}

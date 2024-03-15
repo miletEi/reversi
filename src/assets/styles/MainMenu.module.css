@@ -30,3 +30,13 @@
 .opt:hover {
   color: #ffa33c;
 }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 75px;
+  }
+  .opt {
+    font-size: 25px;
+    padding: 3px 8px;
+  }
+}
