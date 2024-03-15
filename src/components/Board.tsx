@@ -90,6 +90,11 @@ export default function Board({ quitGame }: BoardProps) {
         if (winner) {
           setGameOver(true);
           setWinner(winner);
+        } else if (
+          !nextPlayerMoves.some((rowMoves) => rowMoves.some((move) => move))
+        ) {
+          setGameOver(true);
+          setWinner(null);
         }
       } else {
         setCurrentPlayer(nextPlayer);
