@@ -22,7 +22,7 @@ export default function PlayerCard({
     );
 
   const isCurrentPlayer = currentPlayer === user;
-  console.log(isCurrentPlayer);
+
   return (
     <>
       <div
