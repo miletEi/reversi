@@ -140,8 +140,16 @@ export default function Board({ quitGame }: BoardProps) {
           ))}
         </div>
         <div className={style.playerInfo}>
-          <PlayerCard user="human" playerScore={scores.purple} />
-          <PlayerCard user="computer" playerScore={scores.blue} />
+          <PlayerCard
+            user="purple"
+            playerScore={scores.purple}
+            currentPlayer={currentPlayer}
+          />
+          <PlayerCard
+            user="blue"
+            playerScore={scores.blue}
+            currentPlayer={currentPlayer}
+          />
         </div>
       </div>
     </>
