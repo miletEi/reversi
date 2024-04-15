@@ -8,7 +8,7 @@ interface PlayerCardProps {
 }
 
 export default function PlayerCard({ playerScore, user }: PlayerCardProps) {
-  const userName = user === "computer" ? "Cindy" : "Human";
+  const userName = user === "computer" ? "Cindy" : "Mindy";
   const img =
     user === "computer" ? (
       <img className={style.img} src={ai} alt="Player image" />
